@@ -55,6 +55,29 @@ h1 {
 	-moz-transition: all 0.3s; /* compat with mozilla */
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 600px){
+	h1 {
+		font-size: 140%;
+	}
+
+	#stripe {
+		font-size: 90%;
+	}
+}
+
+@media (max-width: 430px){
+	h1 {
+		font-size: 105%;
+	}
+
+	#stripe {
+		font-size: 70%;
+	}
+}
+
+>>>>>>> set up git, fix display on mobile
 button {
 	border: none;
 	background: none;
@@ -73,4 +96,8 @@ button {
 button:hover {
 	color: white;
 	background: steelblue;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> set up git, fix display on mobile
