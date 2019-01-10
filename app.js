@@ -4,9 +4,10 @@ var express = require("express"),
 // CONFIG
 app.set("view engine", "ejs");
 
-app.use(express.static("public"));
+app.use("/public", express.static(__dirname + "/public"));
 
 
+// ROUTES
 app.get("/", function(req, res){
 	res.render("color game");
 });
